@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn the basics of HTML5, accessibility, and SEO by exploring a simple, semantically correct web page." />
+  <meta name="keywords" content="HTML5, accessibility, SEO, semantic HTML, beginner web design" />
+  <meta name="author" content="Sofi" />
+  <title>HTML5 Accessibility & SEO Basics</title>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to HTML5 Accessibility & SEO Basics</h1>
+    <nav aria-label="Main navigation">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About This Page</h2>
+      <p>This web page demonstrates the use of semantic HTML5 elements with a focus on accessibility and search engine optimization (SEO). It's structured to support both user-friendly navigation and machine readability.</p>
+    </section>
+
+    <section id="features" aria-labelledby="features-heading">
+      <h2 id="features-heading">Key Features</h2>
+      <article>
+        <h3>Semantic HTML</h3>
+        <p>We use elements like <code>&lt;header&gt;</code>, <code>&lt;main&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;section&gt;</code>, <code>&lt;article&gt;</code>, and <code>&lt;footer&gt;</code> to create a meaningful document structure.</p>
+      </article>
+
+      <article>
+        <h3>Accessibility</h3>
+        <p>Landmarks and ARIA labels are included to help screen readers navigate. Headings follow a logical hierarchy for better understanding.</p>
+      </article>
+
+      <article>
+        <h3>SEO Fundamentals</h3>
+        <p>Metadata such as the page title, description, and keyword tags help improve discoverability on search engines.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p>Have questions or feedback? Reach out via <a href="soficharllote50@gmail.com">email</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sofi. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
